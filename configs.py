@@ -20,7 +20,7 @@ class Config(object):
     START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/35c29ce1137d0e07e557d.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """<b>Hᴇʏ, {}! 😃\n\nI Aᴍ A Sɪᴍᴘʟᴇ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ. 😅\n\nYᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Oɴ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ 🤪\n\nNᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 😜\n\nFᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ /help ✅</b>""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001753192788")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Maxxbot:Maxxbot@cluster0.gv1e7ee.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://RoyalTelegram:RoyalTelegram@cluster0.ixfndqo.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001817141728")) 
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
