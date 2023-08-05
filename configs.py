@@ -14,29 +14,29 @@ class Config(object):
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Maxxmoviesrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1913687836"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Royaldwip")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Shnog_World")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "DOON_MoVies")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
-    START_MSG = os.getenv("START_MSG", """<b>Hᴇʏ, ! 😃\n\nI Aᴍ A Sɪᴍᴘʟᴇ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ. 😅\n\nYᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Oɴ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ 🤪\n\nNᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 😜\n\nFᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ /help ✅</b>""" ) 
+    START_MSG = os.getenv("START_MSG", """<b>Hᴇʏ, {}! 😃\n\nI Aᴍ A Sɪᴍᴘʟᴇ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ. 😅\n\nYᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Oɴ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ 🤪\n\nNᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 😜\n\nFᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ /help ✅</b>""" ) 
     START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/a9adcb4a48f574ed8e223.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """bsbsbs""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001753192788")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Qwerty128:Qwerty128@cluster0.qydznec.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Maxxbot:Maxxbot@cluster0.gv1e7ee.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001817141728")
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "Shnog_World")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "DOON_MoVies")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """Hbab""" )
-    ABOUT_WATCH_TEXT = """gab"""
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """@RoyalDwip""" )
+    ABOUT_WATCH_TEXT = """@RoyalDwip"""
     
     ABOUT_TERABOX_TEXT = """
 𝗧𝗲𝗿𝗮𝗕𝗼𝘅 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲👇🔥
 वीडियो प्ले करने में कोई प्रोब्लम अ रही हो तो इक बार रजिस्ट्रेशन कर ले फिर आप बिना एड के विडियो अच्छे से चला पाएंगे थैंक्यू 😊👍
 
-https://teraboxapp.com/s/1NUBTuXUnlJvoQkw1veG2DA
+https://teraboxapp.com/s/1IlxmTsmTLQ-dM1AmaHJmZQ
 
 1) 𝘛𝘦𝘳𝘢𝘣𝘰𝘹 𝘬𝘪 𝘭𝘪𝘯𝘬 𝘱𝘦𝘳 𝘤𝘭𝘪𝘤𝘬 𝘬𝘢𝘳𝘦 𝘶𝘴𝘬𝘦 𝘣𝘢𝘢𝘥 𝘢𝘪𝘴𝘢 𝘱𝘢𝘨𝘦 𝘬𝘩𝘶𝘭𝘦𝘨𝘢.
 
