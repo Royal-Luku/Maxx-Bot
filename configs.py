@@ -16,7 +16,7 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Royaldwip")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Shnog_World")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
-    START_MSG = os.getenv("START_MSG", """hahsh""" ) 
+    START_MSG = os.getenv("START_MSG", """<b>Hᴇʏ, ! 😃\n\nI Aᴍ A Sɪᴍᴘʟᴇ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ. 😅\n\nYᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Oɴ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ 🤪\n\nNᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 😜\n\nFᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ /help ✅</b>""" ) 
     START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/a9adcb4a48f574ed8e223.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """bsbsbs""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001753192788")
