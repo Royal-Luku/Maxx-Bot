@@ -144,9 +144,9 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("I am Unable Search,Please Search In @Help11111bot🙏")
+        result = await event.reply("Please Search Again 🔍")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
-        await event.delete() 
+        await event.delete(1200) 
         return await result.delete()
 
 
