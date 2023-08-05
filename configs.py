@@ -21,7 +21,7 @@ class Config(object):
     HOME_TEXT = os.getenv("HOME_TEXT", """<b>Hᴇʏ, {}! 😃\n\nI Aᴍ A Sɪᴍᴘʟᴇ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ. 😅\n\nYᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Oɴ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ 🤪\n\nNᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 😜\n\nFᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ /help ✅</b>""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001753192788")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Maxxbot:Maxxbot@cluster0.gv1e7ee.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", '-1001817141728')
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001817141728")) 
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "DOON_MoVies")
