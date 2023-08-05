@@ -186,14 +186,14 @@ async def start_handler(_,event: Message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
-             [InlineKeyboardButton("About", callback_data="About_msg"),
-             InlineKeyboardButton("Help", callback_data="Help_msg")
+             [InlineKeyboardButton("Owner ☘️", url=f'https://t.me/dreamer999'),
+             InlineKeyboardButton("Group 🍂", url=f'https://t.me/King_Discussion')
              ]
         ])
     )
 
 VERIFY = {}
-@Client.on_message(filters.command("License") & filters.group)
+@Client.on_message(filters.command("request") & filters.group)
 async def request_handler(c,m: Message):
     global VERIFY
     chat_id = m.chat.id
@@ -228,7 +228,7 @@ async def request_handler(c,m: Message):
         return await m.reply_text("Your group already have access to /database")
 
 
-@Client.on_message(filters.command("Database") & filters.group)
+@Client.on_message(filters.command("db") & filters.group)
 async def addb_handler(c, m: Message):
     global VERIFY
     chat_id = m.chat.id
@@ -262,8 +262,8 @@ async def addb_handler(c, m: Message):
 
             REPLY_MARKUP = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton('Allow DB Channel', callback_data=f'dbgive_access#{group_id}#{m.from_user.id}#{db_channel}'),
-            InlineKeyboardButton('Deny', callback_data=f'dbdeny_access#{m.from_user.id}#{db_channel}'),
+            InlineKeyboardButton('🍂 Allow DB Channel 🍂', callback_data=f'dbgive_access#{group_id}#{m.from_user.id}#{db_channel}'),
+            InlineKeyboardButton('Deny ❌', callback_data=f'dbdeny_access#{m.from_user.id}#{db_channel}'),
         ],
         [
             
