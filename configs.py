@@ -5,14 +5,14 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "22501624"))
-    API_HASH = os.getenv("API_HASH", "5181e32c508753a0fdf347d6d3a0478c")
+    API_ID = int(os.getenv("API_ID", "25286326"))
+    API_HASH = os.getenv("API_HASH", "3c63070f335e015f92f0c22dcd25c5a7")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5986737297:AAGu5jcyi0V0cPOfEQ6R_kRhwN8divRSiuQ")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MaxxBot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLgBu3FpaZtEWUgxTNfwOqXTtJcXLm6Qv2dAEchblEBH30rMCQdHru7aRWzftfqQVoLVr6DexlgTKJkkn9E5z2cc0N0rctX39AE6pf2ZC8fiUJtaeHQu_hctMah3zLIB7QHGyEmPCQ7rHsxJhQcrQ05s_0UKRSdVPRYJBM2BXrpG2ro9AjbE5hZSBi3DDkn3wkr10nSjTtV8RqVAGNbZkcRMw4hBVhRkwZ1jnOOeWE3E7GgYen5wi-uvqjeJHhUCUW5xTAmf1FJmCLN2Y8gXlhEsxGbqCoH62F8gDZ1DkcPNmxMUjI4-C9ODt3AMZFdEUNsLv6dufYrmQKVj2q1Hgcg7O3Y=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001899641345")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Maxxmoviesrobot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1913687836"))
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1923540950"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Royaldwip")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "DOON_MoVies")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
